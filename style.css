@@ -1,0 +1,84 @@
+body{
+    background-color: azure;
+}
+h1{
+text-align:center;
+margin:20px;
+}
+h1:hover{
+    color:darkgray;
+}
+@media (max-width:420px) {
+    h1{
+        text-align: center;
+    }
+    
+}
+
+.btn{
+    width: 200px;
+    height: 200px;
+    margin:60px;
+    border-radius: 100px;
+    border:15px outset black;
+
+
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color:yellow;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+@media (min-width:1000px) {
+    
+.row{
+    margin-left:260px;
+}
+}
+
+@media (max-width:900px) {
+    .row{
+        text-align: center;
+    }
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+footer{
+    text-align: center;
+}
+.underlines{
+    text-decoration: underline;
+}
+button{
+    border-radius: 30px;
+    width:20%;
+    margin:0 auto 0 auto;
+    padding:20px 2px;
+    background-color: gainsboro;
+    position:relative;
+    right:90px;
+
+    
+}
+@media (max-width:360px) {
+    button{
+        left:5px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+
+button:hover{
+    background-color:lavender;
+}
